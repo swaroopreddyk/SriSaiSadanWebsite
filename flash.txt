@@ -1,0 +1,30 @@
+
+<object type="application/x-shockwave-flash" id="BitGravityPlayer" name="BitGravityPlayer" align="left" data="http://player.bc.cdn.bitgravity.com/10/BitGravityPlayer.swf" width="460" height="350"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="File=http://srishridisaitrust.live.cdn.bitgravity.com/srishridisaitrust/live/feed01&amp;Mode=live&amp;AutoPlay=true&amp;streamType=live&amp;ForceReconnect=0"></object>
+<script type="text/javascript" src="http://player.bc.cdn.bitgravity.com/10/jquery.js"></script>
+<script type="text/javascript" src="http://player.bc.cdn.bitgravity.com/10/functions.js"></script>
+<script type="text/javascript" src="http://player.bc.cdn.bitgravity.com/10/swfobject.js"></script>
+<script type="text/javascript">
+    var flashVars = {};
+    flashVars.File = "http://srishridisaitrust.live.cdn.bitgravity.com/srishridisaitrust/live/feed01";
+    flashVars.Mode = "live";
+    flashVars.AutoPlay = "true";
+    flashVars.streamType = "live";
+    flashVars.ForceReconnect = "0";
+    var params = {};
+    params.allowFullScreen = "true";
+    params.allowScriptAccess = "always";
+    swfobject.embedSWF(info.BitGravityswf, "bg_player_location", "460", "350", info.swfVersionStr, info.xiSwfUrlStr, flashVars, params, attributes);
+</script>
+
+ 
+ <br><br><br>
+<a href="javascript:window.history.back();"><img src="/images/btnback.jpg" border="0"></a>
+
+
+
+MOBILE CDN:
+
+<iframe src="http://srishridisaitrust.live-s.cdn.bitgravity.com:1935/content:cdn-live/srishridisaitrust/live/feed01" width="375" height="450" scrolling="NO" frameborder="NO">
+    <A HREF="http://srishridisaitrust.live-s.cdn.bitgravity.com:1935/content:cdn-live/srishridisaitrust/live/feed01">Live</A>
+
+</iframe>
